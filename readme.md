@@ -136,6 +136,7 @@
 - [Ndvi2Gif](https://github.com/Digdgeo/Ndvi2Gif) - Creating seasonal NDVI compositions GIFs.
 - [eemont](https://github.com/davemlz/eemont) - A Python package that extends the Google Earth Engine Python API with pre-processing and processing tools.
 - [hydra-floods](https://github.com/Servir-Mekong/hydra-floods) - An open source Python application for downloading, processing, and delivering surface water maps derived from remote sensing data.
+- [RadGEEToolbox](https://github.com/radwinskis/RadGEEToolbox) - Python package simplifying large-scale operations using Google Earth Engine (GEE) Python API for users who utilize Landsat (5, 8, & 9) and Sentinel 1 & 2 data.
 - [restee](https://github.com/KMarkert/restee) - A package that aims to make plugging Earth Engine computations into downstream Python processing easier.
 - [wxee](https://github.com/aazuspan/wxee) - A Python interface between Earth Engine and xarray for processing weather and climate data.
 - [taskee](https://github.com/aazuspan/taskee) - Monitor your Earth Engine tasks and get notifications on your phone or computer.
@@ -216,6 +217,7 @@
 - [Mort Canty](https://gist.github.com/mortcanty)
 - [Keiko Nomura](https://github.com/nkeikon)
 - [Rodrigo E. Principe](https://github.com/fitoprincipe)
+- [Mark Radwin](https://github.com/radwinskis)
 - [Samapriya Roy](https://github.com/samapriya)
 - [Sabrina Szeto](https://github.com/sabrinaszeto)
 - [Qiusheng Wu](https://github.com/giswqs)
@@ -325,14 +327,16 @@
 - [awesome-gee-community-datasets](https://github.com/samapriya/awesome-gee-community-datasets)
 
 ### Landsat
-
-- [Landsat 8 Surface Reflectance](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_SR)
-- [Landsat 8 TOA Reflectance](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C01_T1_TOA)
+- [Landsat 9 Surface Reflectance](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_L2)
+- [Landsat 9 TOA Reflectance](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC09_C02_T1_TOA)
+- [Landsat 8 Surface Reflectance](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_SR)
+- [Landsat 8 TOA Reflectance](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_TOA)
 
 ### Sentinel
 
 - [Sentinel-1 SAR GRD](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S1_GRD)
-- [Sentinel-2 MSI](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR)
+- [Sentinel-2 MSI Surface Reflectance](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED)
+- [Sentinel-2 MSI TOA Reflectance](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED)
 
 ### NAIP
 
@@ -372,6 +376,7 @@
 
 - Donchyts, G., Baart, F., Winsemius, H., Gorelick, N., Kwadijk, J., van de Giesen, N., 2016. Earth’s surface water change over the past 30 years. _Nat. Clim. Chang_. 6, 810. <https://doi.org/10.1038/nclimate3111>
 - Pekel, J.-F., Cottam, A., Gorelick, N., Belward, A.S., 2016. High-resolution mapping of global surface water and its long-term changes. _Nature_ 540, 418–422. <https://doi.org/10.1038/nature20584>
+- Radwin, M., & Bowen, B. (2024). Evolution of Great Salt Lake’s Exposed Lakebed (1984-2023): Variations in Sediment Composition, Water, and Vegetation from Landsat OLI and Sentinel MSI Satellite Reflectance Data. Geosites, 51, 1–23. <https://doi.org/10.31711/ugap.v51i.134>
 - Wu, Q., Lane, C.R., Li, X., Zhao, K., Zhou, Y., Clinton, N., DeVries, B., Golden, H.E., Lang, M.W., 2019. Integrating LiDAR data and multi-temporal aerial imagery to map wetland inundation dynamics using Google Earth Engine. _Remote Sens. Environ_. 228, 1–13. <https://doi.org/10.1016/j.rse.2019.04.015>
 - Yamazaki, D., Trigg, M.A., 2016. Hydrology: The dynamics of Earth’s surface water. _Nature_. <https://doi.org/10.1038/nature21100>
 
@@ -402,6 +407,7 @@
 - Hird, J.N., DeLancey, E.R., McDermid, G.J., Kariyeva, J., 2017. Google Earth Engine, Open-Access Satellite Data, and Machine Learning in Support of Large-Area Probabilistic Wetland Mapping. _Remote Sensing_ 9, 1315. <https://doi.org/10.3390/rs9121315>
 - Mahdianpari, M., Brisco, B., Granger, J. E., Mohammadimanesh, F., Salehi, B., Banks, S., ... & Weng, Q. (2020). The Second Generation Canadian Wetland Inventory Map at 10 Meters Resolution Using Google Earth Engine. _Canadian Journal of Remote Sensing_, 46(3), 360-375. <https://doi.org/10.1080/07038992.2020.1802584>
 - Mahdianpari, M., Salehi, B., Mohammadimanesh, F., Homayouni, S., Gill, E., 2018. The First Wetland Inventory Map of Newfoundland at a Spatial Resolution of 10 m Using Sentinel-1 and Sentinel-2 Data on the Google Earth Engine Cloud Computing Platform. _Remote Sensing_ 11, 43. <https://doi.org/10.3390/rs11010043>
+- Radwin, M., & Bowen, B. (2024). Evolution of Great Salt Lake’s Exposed Lakebed (1984-2023): Variations in Sediment Composition, Water, and Vegetation from Landsat OLI and Sentinel MSI Satellite Reflectance Data. Geosites, 51, 1–23. <https://doi.org/10.31711/ugap.v51i.134>
 - Wang, X., Xiao, X., Zou, Z., Chen, B., Ma, J., Dong, J., Doughty, R.B., Zhong, Q., Qin, Y., Dai, S., Li, X., Zhao, B., Li, B., 2020. Tracking annual changes of coastal tidal flats in China during 1986–2016 through analyses of Landsat images with Google Earth Engine. _Remote Sens. Environ_. 238, 110987. <https://doi.org/10.1016/j.rse.2018.11.030>
 - Wu, Q., Lane, C.R., Li, X., Zhao, K., Zhou, Y., Clinton, N., DeVries, B., Golden, H.E., Lang, M.W., 2019. Integrating LiDAR data and multi-temporal aerial imagery to map wetland inundation dynamics using Google Earth Engine. _Remote Sens. Environ_. 228, 1–13. <https://doi.org/10.1016/j.rse.2019.04.015>
 - Yancho, J. M. M., Jones, T. G., Gandhi, S. R., Ferster, C., Lin, A., & Glass, L. (2020). The Google Earth Engine Mangrove Mapping Methodology (GEEMMM). _Remote Sensing_, 12(22), 3758. <https://doi.org/10.3390/rs12223758>
@@ -413,6 +419,7 @@
 - Hansen, M.C., Potapov, P.V., Moore, R., Hancher, M., Turubanova, S.A., Tyukavina, A., Thau, D., Stehman, S.V., Goetz, S.J., Loveland, T.R., Kommareddy, A., Egorov, A., Chini, L., Justice, C.O., Townshend, J.R.G., 2013. High-resolution global maps of 21st-century forest cover change. _Science_ 342, 850–853. <https://doi.org/10.1126/science.1244693>
 - Huang, H., Chen, Y., Clinton, N., Wang, J., Wang, X., Liu, C., Gong, P., Yang, J., Bai, Y., Zheng, Y., Zhu, Z., 2017. Mapping major land cover dynamics in Beijing using all Landsat images in Google Earth Engine. _Remote Sens. Environ_. 202, 166–176. <https://doi.org/10.1016/j.rse.2017.02.021>
 - Liu, H., Gong, P., Wang, J., Clinton, N., Bai, Y., Liang, S., 2020. Annual Dynamics of Global Land Cover and its Long-term Changes from 1982 to 2015. _Earth Syst. Sci. Data_. 12, 1217–1243. <https://doi.org/10.5194/essd-12-1217-2020>
+- Radwin, M., & Bowen, B. (2024). Evolution of Great Salt Lake’s Exposed Lakebed (1984-2023): Variations in Sediment Composition, Water, and Vegetation from Landsat OLI and Sentinel MSI Satellite Reflectance Data. Geosites, 51, 1–23. <https://doi.org/10.31711/ugap.v51i.134>
 
 ### Disaster Management
 
